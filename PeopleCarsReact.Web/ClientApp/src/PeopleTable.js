@@ -13,7 +13,7 @@ class PeopleTable extends React.Component {
             age: '',
             cars: []
         }
-    }
+    } 
     componentDidMount = async () => {
         await this.refreshPeople();
     }
