@@ -9,8 +9,7 @@ class AddCar extends React.Component {
             make: '',
             model: '',
             year: '',
-            PersonId: this.props.match.params.id,
-            id:''
+            PersonId: this.props.match.params.id
         },
         
     };
