@@ -1,9 +1,9 @@
 ﻿import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
-function PersonRow(Props){
+function PersonRow(props){
 
-    const { firstName, lastName, age, cars,id } = Props.person;
+    const { firstName, lastName, age, cars,id } = props.person;
         return (
             <tr >
                 <td>{firstName}</td>

@@ -25,8 +25,8 @@ class PeopleTable extends React.Component {
     render() {
         return (
             <div className="container" style={{ marginTop: 60 }}>
-                <Link to='/AddPerson' className="btn btn-info"
-                ><button>Add Person</button></Link>
+                <Link to='/AddPerson' style={{textDecoration: 'none'}} 
+                ><button className="btn btn-info" >Add Person</button></Link>
                 <table className="table table-hover table-striped table-bordered">
                     <thead>
                         <tr>
